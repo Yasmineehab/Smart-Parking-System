@@ -1,24 +1,39 @@
-# Smart Parking System using Arduino
+# 🚗 Smart Parking System (Arduino Based)
 
-An automated parking management system designed to reduce congestion and manage car entry/exit efficiently using IR sensors and a Servo motor.
+An automated parking management solution that monitors available spaces and controls entry/exit gates using IR sensors and a servo motor.
 
-## 🛠️ Components Used
-* Arduino Uno
-* 2x IR Sensors (Entry & Exit)
-* Servo Motor (Gate Control)
-* LCD Display (I2C Module)
-* Jumper Wires & Breadboard
+## 📸 Project Overview & Logic
+Below is the core concept and workflow of the system:
 
-## 🚀 Features
-* **Real-time Monitoring:** Tracks available parking slots.
-* **Automated Gate:** Opens when a car is detected and closes after passing.
-* **Smart Display:** Shows "Welcome" with slot count or "Parking Full" message.
+![Project Idea](Idea.png)
+*Visualizing the system workflow and smart parking logic.*
 
-## 💻 Logic & Implementation
-The system uses **C++** with the following logic:
-1. **Entry:** If a car is detected at the entry IR and slots are available, the servo opens the gate and decrements the counter.
-2. **Exit:** If a car is detected at the exit IR, the servo opens the gate and increments the counter.
-3. **Safety:** The gate closes only after both sensors confirm the car has fully passed.
+## 🛠️ Hardware & Components
+The project relies on precise sensing to manage car flow:
 
-[View Project Presentation]
-https://www.canva.com/design/DAG7NUUN2GM/BasFp_DeT29KOoSQy5jt9w/view?utm_content=DAG7NUUN2GM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he17bbf3415
+![Sensors Detail](Sensors.png)
+*Detailed look at IR sensor integration and signal processing.*
+
+### Component List:
+* **Microcontroller:** Arduino Uno.
+* **Sensors:** 2x Infrared (IR) Sensors.
+* **Actuators:** SG90 Servo Motor.
+* **Display:** 16x2 LCD with I2C Module.
+
+## ⚡ Simulation & Wiring
+The circuit was designed and tested to ensure seamless hardware interaction:
+
+![Circuit Simulation](Smart_Parking_simulation.jpg)
+*Full circuit diagram and component connections.*
+
+## 🚀 Future Scalability
+This project is designed with growth in mind, including potential IoT integration and mobile app tracking:
+
+![Future Scope](Developing.png)
+
+## 📄 Full Presentation
+For a deep dive into the technical design, logic, and development process, you can view the full presentation here:
+👉 [**View Full Project Presentation on Canva**](https://www.canva.com/design/DAG7NUUN2GM/BasFp_DeT29KOoSQy5jt9w/view?utm_content=DAG7NUUN2GM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he17bbf3415)
+
+---
+**Developed by Yasmine Ehab** *Computer Engineering Student at Al-Azhar University*
