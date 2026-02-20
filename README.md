@@ -32,8 +32,8 @@ This project is designed with growth in mind, including potential IoT integratio
 ![Future Scope](Images/Developing.png)
 
 ## 📄 Full Presentation
-For a deep dive into the technical design, logic, and development process, you can view the full presentation here:
+You can view the full presentation here:
 👉 [**View Full Project Presentation on Canva**](https://www.canva.com/design/DAG7NUUN2GM/BasFp_DeT29KOoSQy5jt9w/view?utm_content=DAG7NUUN2GM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he17bbf3415)
 
 ---
-**Developed by Yasmine Ehab** *Computer Engineering Student at Al-Azhar University*
+**Developed by Yasmine Ehab** *Data Engineer*
