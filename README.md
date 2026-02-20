@@ -19,3 +19,6 @@ The system uses **C++** with the following logic:
 1. **Entry:** If a car is detected at the entry IR and slots are available, the servo opens the gate and decrements the counter.
 2. **Exit:** If a car is detected at the exit IR, the servo opens the gate and increments the counter.
 3. **Safety:** The gate closes only after both sensors confirm the car has fully passed.
+
+[View Project Presentation]
+https://www.canva.com/design/DAG7NUUN2GM/BasFp_DeT29KOoSQy5jt9w/view?utm_content=DAG7NUUN2GM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he17bbf3415
