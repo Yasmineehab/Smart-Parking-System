@@ -5,13 +5,13 @@ An automated parking management solution that monitors available spaces and cont
 ## 📸 Project Overview & Logic
 Below is the core concept and workflow of the system:
 
-![Project Idea](Idea.png)
+![Project Idea](Images/Idea.png)
 *Visualizing the system workflow and smart parking logic.*
 
 ## 🛠️ Hardware & Components
 The project relies on precise sensing to manage car flow:
 
-![Sensors Detail](Sensors.png)
+![Sensors Detail](Images/Sensors.png)
 *Detailed look at IR sensor integration and signal processing.*
 
 ### Component List:
@@ -23,13 +23,13 @@ The project relies on precise sensing to manage car flow:
 ## ⚡ Simulation & Wiring
 The circuit was designed and tested to ensure seamless hardware interaction:
 
-![Circuit Simulation](Smart_Parking_simulation.jpg)
+![Circuit Simulation](Images/Smart_Parking_simulation.jpg)
 *Full circuit diagram and component connections.*
 
 ## 🚀 Future Scalability
 This project is designed with growth in mind, including potential IoT integration and mobile app tracking:
 
-![Future Scope](Developing.png)
+![Future Scope](Images/Developing.png)
 
 ## 📄 Full Presentation
 For a deep dive into the technical design, logic, and development process, you can view the full presentation here:
